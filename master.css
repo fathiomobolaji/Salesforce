@@ -1,0 +1,549 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    padding: 1.5rem 1rem;
+    display: flex;
+    width: 100%;
+    gap: 4rem;
+    background-color: #fff;
+}
+
+header .try {
+    font-weight: bold;
+    padding: 0.7rem 1.4rem;
+    background-color: #1d7a3c;
+    border-radius: 0.4rem;
+}
+
+header .try a {
+    text-decoration: none;
+    color: white;
+
+}
+
+header nav {
+    display: flex;
+    align-self: center;
+
+}
+
+header .nav1 ul li {
+    list-style-type: none;
+}
+
+header .nav1 ul li a {
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    padding-right: 2rem;
+    color: #032D60;
+}
+
+header .nav1 ul li a:hover {
+    color: #00A1E0;
+}
+
+header .contact .text {
+    color: black;
+}
+
+header .contact .text:hover {
+    color: #0176D3;
+}
+
+header .contact .number {
+    text-decoration: none;
+    color: black;
+}
+
+.homepage {
+    margin-top: 10rem;
+    display: flex;
+    margin: 5rem;
+    gap: 2rem;
+}
+
+.homepage_image {
+    width: 50%;
+}
+
+h1 {
+    font-size: 2.8rem;
+    color: #032855;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+}
+
+.homepage_text {
+    width: 50%;
+    margin-top: 3rem;
+}
+
+.homepage p {
+    font-size: 20px;
+    line-height: 2rem;
+    margin-bottom: 3rem;
+}
+
+.blue,
+.white {
+    text-decoration: none;
+
+}
+
+.blue:hover {
+    background-color: #032855;
+}
+
+.white:hover {
+    outline: #032855 solid 2px;
+    color: #032855;
+    background-color: #e4f4fa;
+}
+
+/* .homepage_text a.blue {
+    background-color: #0176D3;
+    padding: 1rem 2rem;
+    color: white;
+    border-radius: 0.4rem;
+
+
+} */
+a.blue {
+    background-color: #0176D3;
+    padding: 1.2rem 2.8rem;
+    color: white;
+    border-radius: 0.4rem;
+    font-weight: bolder;
+
+}
+
+.homepage_text .white {
+    margin-left: 1.5rem;
+}
+
+.white {
+    font-weight: bolder;
+    background-color: white;
+    padding: 1rem 3rem;
+    color: #0176D3;
+    outline: #0176D3 solid 2px;
+    border-radius: 2px;
+}
+
+.homepage .homepage_text p a {
+    color: black;
+}
+
+.homepage_text p a:hover {
+    text-decoration: none;
+    color: #0176D3;
+
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: #032D60;
+    font-size: 2rem;
+}
+
+.page2 .imageplustext {
+    display: flex;
+    gap: 2rem;
+    padding: 4rem;
+}
+
+.page2 .image1,
+.image2,
+.image3 {
+
+    height: 25rem;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 3px rgb(203, 203, 203);
+}
+
+.page2 img {
+    width: 100%;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.page2 .imageplustext h3 {
+    padding: 2rem;
+    font-size: 20px;
+    color: #032D60;
+}
+
+.page2 .imageplustext h3:hover {
+    color: #0176D3;
+}
+
+.page2 .imageplustext a {
+    padding: 2rem;
+    color: #032D60;
+    font-weight: bolder;
+}
+
+.page2 .imageplustext a:hover {
+    color: #0176D3;
+}
+
+.page3 h2 {
+    text-align: center;
+    padding: 0rem 18rem;
+}
+
+.page3image {
+    display: flex;
+    padding: 5rem;
+    gap: 4rem;
+    width: 100%;
+}
+
+.page3image img {
+    width: 100%;
+}
+
+.page3image h3 {
+    padding: 1rem 0rem;
+    color: #032855;
+}
+
+.page3image h3,
+.page3image p,
+.page3image a {
+    text-align: center;
+}
+
+.page3image a {
+    padding-top: 2rem;
+    color: #032855;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    display: block;
+    width: 100%;
+    text-align: center;
+
+}
+
+.page4 .page4link {
+    margin: 3rem 0rem;
+    padding: 2rem 1rem;
+    display: block;
+    text-align: center;
+}
+
+.page4link a {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 1.2rem 2.6rem;
+    background-color: #0176D3;
+    width: 15rem;
+}
+
+.page5 {
+    display: flex;
+    width: 100%;
+    padding: 4rem 2rem;
+}
+
+.page5 .what-is-crm h2 {
+    display: flex;
+    justify-content: left;
+
+}
+
+.page5 .what-is-crm {
+    padding: 4rem 3rem;
+
+}
+
+.page5 p {
+    line-height: 1.5rem;
+    padding: 2rem 3rem 3rem 0rem;
+    margin-bottom: 1.5rem;
+}
+
+.crmimage {
+    width: 70%;
+}
+
+.crmimage img {
+    width: 100%;
+}
+
+.page6 h3 {
+    font-size: 3rem;
+}
+
+/* .page6 .image1 p, .image2 p , .image3 p{
+    padding: 0rem 2rem ;
+    line-height:1.5rem;
+
+} */
+.page6 .imageplustext2,
+.page7 .imageplustext3 {
+    display: flex;
+    gap: 2rem;
+    padding: 4rem;
+}
+
+.page6 .page6image1,
+.page6image2,
+.page6image3,
+.page7 .page7image1,
+.page7image2,
+.page7image3 {
+    height: 33rem;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 3px rgb(203, 203, 203);
+}
+
+.page7 .page7image1,
+.page7image2,
+.page7image3 {
+    height: 32rem;
+}
+
+.page6 img,
+.page7 img {
+    width: 100%;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.page6 .imageplustext2 h3,
+.page7 .imageplustext3 h4 {
+    padding: 2rem 0;
+    font-size: 25px;
+    color: #032D60;
+}
+
+.page6 .imageplustext2 h3:hover,
+.page7 .imageplustext3 h4:hover {
+    color: #0176D3;
+}
+
+.page7 .imageplustext3 h4 {
+    margin-bottom: 4rem;
+}
+
+.page6 .imageplustext2 p {
+    font-size: 19px;
+    padding-bottom: 3rem;
+}
+
+.page6 .imageplustext2 .page6text,
+.page7 .imageplustext3 .page7text {
+    margin: 1rem 2rem;
+}
+
+.page6 .imageplustext2 a,
+.page7 .imageplustext3 a {
+    /* margin: 2rem; */
+    color: #032D60;
+    font-weight: bolder;
+}
+
+
+.page6 .imageplustext2 a:hover,
+.page7 .imageplustext3 a:hover {
+    color: #0176D3;
+}
+
+span {
+    background-color: #e5f1f6;
+    padding: 5px 12px;
+    border-radius: 12px;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.page8 .centreparagraph {
+    font-size: 21px;
+    text-align: center;
+    margin: 2rem 21rem;
+
+}
+
+.congapage {
+    padding: 3rem 0rem 0rem 0rem;
+    display: flex;
+    width: 100%;
+}
+
+.congapage img {
+    width: 50%;
+    padding: 0rem 0rem 2rem 5rem;
+}
+
+.congapage .white {
+    font-weight: bolder;
+}
+
+.congatext {
+    padding: 9rem 4rem 0rem 2rem;
+}
+
+.congapage h3,
+.freetrial h3 {
+    color: #032D60;
+    font-size: 2.5rem;
+    margin-bottom: 1.8rem;
+}
+
+.congapage p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-bottom: 3.3rem;
+}
+
+.freetrial {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.freetrial h3 {
+    font-size: 2.3rem;
+    padding: 0rem 17rem;
+}
+
+.imagepage {
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.imagepage img {
+    padding: 1rem 3rem;
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.signbox {
+    /* position: relative; */
+    width: 88%;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    height: 18rem;
+    border-radius: 1rem;
+    box-shadow: 2px 4px 8px 8px rgb(203, 203, 203);
+}
+
+
+.signbox img {
+    width: 35%;
+}
+
+.signbox h3 {
+    font-size: 2.5rem;
+    color: #032D60;
+    margin-bottom: 3rem;
+}
+
+.signboxtext {
+    width: 45%;
+    margin: 3rem 0rem;
+}
+
+.signbox a {
+    /* margin-top: 15rem; */
+}
+
+footer {
+    /* padding: 4rem; */
+}
+
+.topfooter {
+    display: flex;
+    gap: 6rem;
+    padding: 4rem;
+}
+
+.sideA {
+    width: 50%;
+    display: flex;
+    gap: 13rem;
+    line-height: 2.1rem;
+
+}
+
+.sideA p {
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+li {
+    list-style-type: none;
+    font-size: 13px;
+}
+
+.sideA a,
+.sideB a {
+    text-decoration: none;
+    color: #0176D3;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+.sideB {
+    display: flex;
+    width: 50%;
+    gap: 10rem;
+    line-height: 2.1rem;
+}
+
+.bottomfooter {
+    background-color: #032D60;
+    width: 100%;
+    display: flex;
+    padding: 2rem 0rem;
+    color: white;
+    align-items: center;
+
+}
+
+.bottomfooter a {
+    color: #0176D3;
+    font-size: 13px;
+    margin-top: 1rem;
+}
+.bottomfooter p{
+    font-size: 13px;
+}
+.bottomfooter .copyright {
+    line-height: 1.3rem;
+    padding-right: 4rem;
+}
+.bottomfooter ul{
+    display: flex;
+    gap: 1.5rem;
+}
+.btn span {
+
+    outline: white solid 1.3px;
+    background-color: #032D60;
+    border-radius: 5px;
+    margin: 2rem;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    /* line-height: 1rem; */
+    font-weight: 700;
+}
